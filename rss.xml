@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>GitHello Updates</title>
+    <link>https://a-aadityachoudhary.github.io/hello/</link>
+    <description>Latest updates from my GitHub Pages website.</description>
+
+    <item>
+      <title>Website Launched</title>
+      <link>https://a-aadityachoudhary.github.io/mysite/</link>
+      <description>Initial version of the website.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 GMT</pubDate>
+      <guid>1</guid>
+    </item>
+
+  </channel>
+</rss>
