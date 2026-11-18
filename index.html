@@ -1,14 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub Pages Test</title>
+
   <link
-  rel="alternate"
-  type="application/rss+xml"
-  title="GitHello RSS Feed"
-  href="rss.xml">
+    rel="alternate"
+    type="application/rss+xml"
+    title="GitHello RSS Feed"
+    href="rss.xml"
+  >
 
   <style>
     * {
@@ -67,6 +70,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="card">
@@ -86,7 +90,23 @@
       document.getElementById("message").innerHTML =
         "🎉 Congratulations! JavaScript is working perfectly.";
     }
-
   </script>
-<script type="text/javascript">var subscribersSiteId='44bf2e54-385e-46c0-a602-f52d846cf1bc';</script><script type="text/javascript" src="http://localhost:8000/assets/subscribers.js"></script>
+
+  <!-- Subscribers SDK configuration -->
+  <script>
+    var subscribersSiteId = '44bf2e54-385e-46c0-a602-f52d846cf1bc';
+
+    window.subscribersServiceWorkerPath =
+      '/mysite/firebase-messaging-sw.js';
+
+    window.subscribersServiceWorkerScope = '/mysite/';
+  </script>
+
+  <!-- Subscribers SDK -->
+  <script
+    type="text/javascript"
+    src="http://localhost:8000/assets/subscribers.js">
+  </script>
+
+</body>
 </html>
